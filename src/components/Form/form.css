@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    label {
+        font-weight: 600;
+        color: white;
+    }
+    input {
+        width: 20vw;
+        border-radius: 5px;
+        height: 3vh;
+        border: none;
+    }
+    button  {
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 3vh;
+        border: none;
+        color: rgb(58, 13, 116);
+        background-color: rgba(255, 255, 255, 0.514);
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.195);
+        }
+    }
+}
